@@ -1,0 +1,27 @@
+##OpenGL GLIB
+
+Perspective 70
+LookAt 0 0 3  0 0 0  0 1 0
+
+Texture2D 5 China.bmp
+Texture2D 6 fabric_normal.bmp
+
+Vertex	  quad.vert
+Fragment  quad.frag
+Program   Quad                              \
+	uA <0.0 0.0001 0.05>                      \
+	uB <0.0 0.2159 0.5>                        \
+	uC <0.1 6.3 12.56>                      \
+	uKa <0. 0.38 1.0>                        \
+	uKd <0. 0.8 1.0>                        \
+	uKs <0. 0.82 2.0>                        \
+	uShininess <1. 16. 50.>                 \
+	uNoiseFreq <0. 0.15 0.3>				\
+	uLightX <-20. 0.24 20.>                  \
+	uLightY <-20. 0.73 20.>                 \
+	uLightZ <-10. 0. 10.>                  \
+	uFlagImage 5							\
+	uNormalImage 6							\
+	uSpecularColor {1. 1. 1. 1.}
+	
+QuadXY 0 1
